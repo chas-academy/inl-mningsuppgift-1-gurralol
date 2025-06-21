@@ -42,15 +42,15 @@ int main() {
         sum += diceRolls[i];
     }
 
-    printf("Ones: %d\n", one);
-    printf("Twos: %d\n", two);
-    printf("Threes: %d\n", three);
-    printf("Fours: %d\n", four);
-    printf("Fives: %d\n", five);
-    printf("Sixes: %d\n", six);
+    printf("%d\n", one);
+    printf("%d\n", two);
+    printf("%d\n", three);
+    printf("%d\n", four);
+    printf("%d\n", five);
+    printf("%d\n", six);
 
-    printf("Sum of all rolls: %d\n", sum);
-    printf("Average: %.1f", sum/100.0);
+    printf("%d\n", sum);
+    printf("%.1f", sum/100.0);
     
     return 0;
 }
